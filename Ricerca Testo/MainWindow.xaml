@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ricerca_Testo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ricerca_Testo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="txttesto" HorizontalAlignment="Left" Height="74" Margin="36,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" FontSize="18"/>
+        <TextBox x:Name="txtricerca" HorizontalAlignment="Left" Height="74" Margin="333,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" FontSize="18"/>
+        <Button x:Name="btnricerca" Content="Ricerca" HorizontalAlignment="Left" Margin="622,42,0,0" VerticalAlignment="Top" Width="122" Height="74" FontSize="22" Click="btnricerca_Click"/>
+        <Label Name="lblresult" Content="" HorizontalAlignment="Left" Height="122" Margin="36,274,0,0" VerticalAlignment="Top" Width="388" FontSize="18"/>
+
+    </Grid>
+</Window>
