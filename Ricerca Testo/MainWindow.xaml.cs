@@ -27,11 +27,11 @@ namespace Ricerca_Testo
 
         private void btnricerca_Click(object sender, RoutedEventArgs e)
         {
-            bool ricerca;
+            bool ricerc;
             string testoiniziale = txttesto.Text;
             string testodacercare = txtricerca.Text;
-            ricerca = testoiniziale.Contains(testodacercare);
-            if(ricerca==true)
+            ricerc = testoiniziale.Contains(testodacercare);
+            if(ricerc==true)
             {
                int posizione1= testoiniziale.IndexOf(testodacercare+1);
                int posizione2 = posizione1 - 1;
